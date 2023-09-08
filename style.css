@@ -1,0 +1,30 @@
+body {
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.container {
+  border-radius: 10px;  
+}
+#carimg{
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: white;
+}
+#carimg img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+#btn{
+  margin: 10px;
+  padding: 2px 12px;
+  font-size: 18px;
+  background-color: green;
+}
+
